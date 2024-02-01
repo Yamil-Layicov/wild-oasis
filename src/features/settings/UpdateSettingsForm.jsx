@@ -26,7 +26,6 @@ function UpdateSettingsForm() {
     updateSetting({ [field]: value });
   }
 
-
   return (
     <Form>
       <FormRow label="Minimum nights/booking">
