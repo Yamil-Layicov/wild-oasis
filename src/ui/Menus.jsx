@@ -110,11 +110,9 @@ function List({ id, children }) {
   if (openId !== id) return null;
 
   return createPortal(
-    <StyledList position={position} ref={ref}>
-      {children}
-    </StyledList>,
+    <StyledList position={position} >{children}</StyledList>,
     document.body
-  );
+  );  
 }
 
 function Button({ children, icon, onClick }) {
