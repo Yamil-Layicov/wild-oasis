@@ -22,7 +22,7 @@ const StyledFormRow = styled.div`
 
   &:has(button) {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
     gap: 1.2rem;
   }
 `;
