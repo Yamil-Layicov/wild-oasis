@@ -11,7 +11,7 @@ const StyledSelect = styled.select`
   border-radius: var(--border-radius-sm);
   background-color: var(--color-grey-0);
   font-weight: 500;
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-sm); 
 `;
 
 function Select({ options, value, onChange, ...props }) {
